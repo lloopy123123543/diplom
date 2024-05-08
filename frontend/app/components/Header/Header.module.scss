@@ -1,0 +1,19 @@
+.header{
+
+  height: calc(100% - 40px);
+  background-color: #232323;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  overflow: hidden;
+}
+.header_circle{
+  position: absolute;
+  width: 35px;
+  height: 35px;
+  background-color: #F1AD3D;
+  border-radius: 50%;
+  bottom: 50px;
+  left: 15px;
+  cursor: pointer;
+}
