@@ -30,14 +30,10 @@ export const Header = () => {
         </div>
       </div>
       <div className={style.mobile}>
-        {isOpen && (
-
           <header
             className={style.header}>
             <NavbarMobile/>
           </header>
-
-        )}
       </div>
     </>
   )
