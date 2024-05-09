@@ -1,0 +1,31 @@
+.news{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  .new{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #F1AD3D;
+    a{
+      margin: 0;
+      font-size: 1.3rem;
+      text-decoration-line: none;
+      color: black;
+      font-weight: bold;
+    }
+    p{
+      margin: 0;
+    }
+    .subInfo{
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-end;
+      font-size: 12px;
+      color: #232323;
+      opacity: .7;
+    }
+  }
+}

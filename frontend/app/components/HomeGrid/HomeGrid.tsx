@@ -1,6 +1,7 @@
 import style from "./HomeGrid.module.scss"
 import {motion} from "framer-motion";
 import {PlaceContainer} from "@/app/components/PlaceContainer/PlaceContainer";
+import {NewsSection} from "@/app/components/PlaceContainer/coomponents/NewsSection/NewsSection";
 
 export const HomeGrid = () => {
 
@@ -14,7 +15,9 @@ export const HomeGrid = () => {
 
       <div
         style={{gridArea: "1 / 1 / 3 / 5"}}>
-        <PlaceContainer>sdfsdfsdf</PlaceContainer>
+        <PlaceContainer>
+          <NewsSection/>
+        </PlaceContainer>
       </div>
 
       <div
