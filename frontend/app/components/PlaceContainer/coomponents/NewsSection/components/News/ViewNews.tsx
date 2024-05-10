@@ -20,7 +20,8 @@ export const ViewNews = ({allNews}: {allNews: INew | null}) => {
           initial={{ y:20, opacity: 0 }}
           animate={{ y:0, opacity: 1 }}
           transition={{duration:index / 10 + 0.2}}
-          className={style.new}>
+          className={style.new}
+        >
           <a href={article.url} >{article.title}</a>
           <p>{article.description}</p>
           <div className={style.subInfo}>

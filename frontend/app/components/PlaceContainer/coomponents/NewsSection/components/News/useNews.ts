@@ -10,7 +10,6 @@ export const useNews = () => {
       try {
         const response = await axios.get(`https://newsapi.org/v2/top-headlines?country=us&apiKey=a4cb1132346243329a6f0673daa58ee1`);
         setAllNews(response.data);
-        console.log(response.data)
       } catch (error) {
         console.log(error)
       }
